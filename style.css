@@ -1,0 +1,292 @@
+@font-face {
+    font-family: 'sans';
+    src: url(font/iransans.ttf);
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "sans";
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    background: linear-gradient(95deg, hsla(192, 56%, 23%, 1) 4%, hsla(191, 64%, 16%, 1) 32%, hsla(203, 50%, 16%, 1) 53%, hsla(197, 49%, 15%, 1) 62%, rgb(50, 46, 48) 100%);
+}
+
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-menu {
+    width: 3.5rem;
+    height: 3.5rem;
+    background: rgba(255, 255, 255, 0.24);
+    border-radius: 50%;
+    border: rgba(255, 255, 255, 0.944);
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    color: azure;
+    margin: 10px;
+}
+
+.circle-menu i {
+    opacity: 50%;
+}
+
+.circle-profile {
+    width: 3.5rem;
+    height: 3.5rem;
+    background: rgba(255, 255, 255, 0.24);
+    border-radius: 50%;
+    border: rgba(255, 255, 255, 0.944);
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    color: azure;
+    margin: 10px;
+}
+
+.circle-profile i {
+    opacity: 50%;
+}
+
+.prohome {
+    margin: 0 auto;
+    background: -webkit-linear-gradient(45deg, #53edc5, #d9f047);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.box-colud {
+    width: calc(100% - 2rem);
+    margin: 0 auto;
+    position: relative;
+    height: 8.5rem;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.131);
+    border-radius: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.24);
+}
+
+.box-colud img {
+    position: absolute;
+    top: -3rem;
+    left: 0.1rem;
+    float: left;
+    width: 9.4rem;
+}
+
+.text-right {
+    float: right;
+    width: 100px;
+    margin-top: 1.8rem;
+    margin-right: 0.2rem;
+}
+
+.descgry {
+    font-size: 4rem;
+    background: -webkit-linear-gradient(45deg, #71848b, #e2e6e7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+}
+
+.feel {
+    color: #e2e6e7;
+}
+
+.text-button {
+    width: 100px;
+    margin-top: 5.5rem;
+    margin-left: 2.5rem;
+    font-size: 1.1rem;
+    color: #e2e6e7;
+    font-weight: 700;
+}
+
+.night-day {
+    font-weight: 200;
+    margin: 7px 10px 0px 5px;
+}
+
+.cearefull::after {
+    content: "";
+    display: table;
+}
+
+.cearefull::after {
+    clear: both;
+}
+
+.activeivty {
+    width: calc(100% - 2rem);
+    margin: 0 auto;
+    height: 6.5rem;
+    margin-top: -10px;
+    background: linear-gradient(45deg, #2d6ed6, #48f093);
+    border-radius: 30px;
+}
+
+.activeivty .left {
+    margin: 19px;
+    top: 8px;
+    left: 10px;
+    position: relative;
+    line-height: 1.9rem;
+}
+
+.activeivty .left .enrgy {
+    color: #e2e6e784;
+}
+
+.activeivty .left .kwh {
+    color: #e2e6e7;
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+.activeivty .left .trun {
+    color: #e2e6e7;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.activeivty .right {
+    float: right;
+    background-color: #f4f4f4;
+    margin: 20px;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 2px rgba(123, 123, 123, 0.426);
+    align-items: center;
+}
+
+.activeivty .right i {
+    font-size: 2.1rem;
+    color: #da6085;
+    font-weight: 900;
+}
+
+.text-device {
+    width: 90%;
+    height: 1.4rem;
+    float: left;
+    margin-top: 10px;
+    left: 20px;
+    position: relative;
+}
+
+.text-device p {
+    display: inline;
+    float: left;
+    color: #e2e6e7;
+    margin: 0.2rem;
+}
+
+.box-divice {
+    width: 100%;
+    height: 100px;
+    float: right;
+    display: flex;
+    justify-content: center;
+}
+
+.box-divice .lamp {
+    float: left;
+    width: 35%;
+    height: 90%;
+    background: rgba(255, 255, 255, 0.131);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.24);
+    margin: 0.3rem;
+    text-align: center;
+    position: relative;
+}
+
+.box-divice .lamp i {
+    color: rgb(209, 209, 209);
+    font-size: 2.5rem;
+}
+
+.lamp p {
+    text-align: center;
+    color: #e2e6e7;
+    line-height: 1.3rem;
+}
+
+.lamp :nth-child(2) {
+    margin-top: 1.1rem;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background: rgb(121, 121, 156);
+    position: fixed;
+    bottom: 0px;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+
+.plus {
+    width: 3.2rem;
+    height: 3.2rem;
+    background: #16a085;
+    border-radius: 50%;
+    border: 0.7rem solid #142e3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    margin: 0 auto;
+    color: azure;
+    /* border-top-right-radius: 40%;
+    border-top-left-radius: 40%; */
+    position: relative;
+    bottom: 25px;
+}
+
+.fa-plus {
+    position: absolute;
+    font-size: 2rem;
+}
+
+.footer-right {
+    display: inline;
+    float: right;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-left {
+    display: inline;
+    float: left;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-right *,
+.footer-left * {
+    font-size: 2rem;
+    color: #e2e6e7;
+    position: relative;
+    bottom: 4.1rem;
+}
